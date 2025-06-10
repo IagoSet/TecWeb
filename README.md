@@ -49,6 +49,8 @@ Acesse no navegador:
 Copiar
 Editar
 http://localhost:3000
+
+
 ✅ Funcionalidades
 Cadastro com validação de nome e e-mail
 
