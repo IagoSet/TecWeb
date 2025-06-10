@@ -1,38 +1,107 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #1f1f1f;
+  color: #f0f0f0;
+}
+
 .App {
+  padding: 2rem;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  background-color: #2a2a2a;
+  padding: 1rem;
+}
+
+nav a {
+  color: #ccc;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #4fc3f7;
+}
+
+h2 {
   text-align: center;
+  margin: 1.5rem 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+form {
+  background-color: #2e2e2e;
+  padding: 1.5rem;
+  border-radius: 8px;
+  width: 320px;
+  margin: 0 auto;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  gap: 0.8rem;
+}
+
+input {
+  height: 32px;
+  padding: 0 10px;
+  font-size: 0.9rem;
+  border-radius: 4px;
+  border: 1px solid #444;
+  background-color: #3a3a3a;
   color: white;
+  width: 100%;
+  box-sizing: border-box;
 }
 
-.App-link {
-  color: #61dafb;
+input::placeholder {
+  color: #bbb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+button {
+  height: 36px;
+  background-color: #4fc3f7;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  font-weight: bold;
+  cursor: pointer;
 }
+
+button:hover {
+  background-color: #42a9d3;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  width: 320px;
+  margin: 2rem auto;
+}
+
+li {
+  background-color: #2e2e2e;
+  padding: 10px 14px;
+  margin-bottom: 0.5rem;
+  border-left: 4px solid #4fc3f7;
+  border-radius: 4px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+li button {
+  background-color: #f44336;
+  color: white;
+  border: none;
+  padding: 6px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 0.8rem;
+}
+
+li button:hover {
+  background-color: #d32f2f;
+}
+
