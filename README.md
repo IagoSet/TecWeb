@@ -1,64 +1,55 @@
-# 🧑‍💻 Projeto React - Tecnologias Web
+🧑‍💻 Projeto React - Tecnologias Web
+📚 Descrição
+Este projeto foi desenvolvido como parte da Prática Presencial das Unidades 3 e 4 da disciplina Tecnologias Web no IESB.
 
-## 📚 Descrição
+A aplicação é uma SPA (Single Page Application) construída com React, que permite:
 
-Este projeto foi desenvolvido como parte da **Prática Presencial das Unidades 3 e 4** da disciplina **Tecnologias Web** no IESB.  
-A aplicação é uma SPA (Single Page Application) construída com **React**, que permite:
+Cadastro de usuários com validação de formulário
 
-- Cadastro de usuários com validação de formulário
-- Listagem dos usuários cadastrados
-- Navegação entre páginas utilizando React Router
-- Gerenciamento de estado global com Context API
+Listagem dos usuários cadastrados
 
----
+Navegação entre páginas
 
-## 👤 Autor
+Integração com estado global
 
-**Iago de Souza Gomes**  
+Estilização com CSS puro
+
+👤 Autor
+Iago de Souza Gomes
 RA: 2312130087
 
----
+🚀 Como rodar o projeto
+✔ Pré-requisitos
+Node.js instalado → https://nodejs.org
 
-## 🚀 Como rodar o projeto
+🛠 Passo a passo
+Clone o repositório:
 
-### Pré-requisitos
-
-- Node.js instalado ([https://nodejs.org](https://nodejs.org))
-
-### Passo a passo
-
-1. Clone o repositório ou baixe os arquivos:
-```bash
 git clone https://github.com/seu-usuario/seu-repositorio.git
 cd seu-repositorio
+
 Instale as dependências:
 
-bash
-Copiar
-Editar
 npm install
+
 Inicie o servidor de desenvolvimento:
 
-bash
-Copiar
-Editar
 npm start
+
 Acesse no navegador:
 
-arduino
-Copiar
-Editar
 http://localhost:3000
+
 ✅ Funcionalidades
 Cadastro com validação de nome e e-mail
 
-Listagem de usuários cadastrados
+Listagem dinâmica de usuários
 
-Navegação entre páginas (Cadastro e Lista)
+Troca de páginas sem recarregar (SPA)
 
-Estado global com Context API
+Gerenciamento de estado com Context API
 
-Estilização com CSS puro
+Layout responsivo e visual limpo com CSS
 
 🧠 Tecnologias Utilizadas
 React
@@ -67,4 +58,4 @@ React Router DOM
 
 Context API
 
-CSS
+CSS puro
