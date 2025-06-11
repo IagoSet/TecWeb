@@ -12,10 +12,13 @@ A aplicação é uma SPA (Single Page Application) construída com **React**, qu
 
 ---
 
-## 👤 Autor
+## 👤 Autores
 
 **Iago de Souza Gomes**  
 RA: 2312130087
+
+**Lucas Faria Ribeiro**
+RA: 2312130040
 
 ---
 
@@ -29,9 +32,9 @@ RA: 2312130087
 
 1. Clone o repositório ou baixe os arquivos:
 ```bash
-git clone https://github.com/seu-usuario/seu-repositorio.git
-cd seu-repositorio
-Instale as dependências:
+git clone https://github.com/IagoSet/TecWeb.git
+cd cd .\TecWeb\
+Instale as dependências: npm install
 ```
 
 Copiar
