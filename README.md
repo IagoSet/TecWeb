@@ -34,7 +34,7 @@ RA: 2312130040
 
 1. **Clone o repositório**
    ```sh
-   git clone 
+   git clone https://github.com/IagoSet/TecWeb.git
    ```
 2. **Acesse o diretório do projeto**
    ```sh
