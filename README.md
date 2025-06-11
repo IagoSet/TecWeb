@@ -7,6 +7,7 @@ A aplicação é uma SPA (Single Page Application) construída com **React**, qu
 
 - Cadastro de usuários com validação de formulário
 - Listagem dos usuários cadastrados
+- Listagem de itens e do preço desses itens
 - Navegação entre páginas utilizando React Router
 - Gerenciamento de estado global com Context API
 
@@ -17,7 +18,7 @@ A aplicação é uma SPA (Single Page Application) construída com **React**, qu
 **Iago de Souza Gomes**  
 RA: 2312130087
 
-**Lucas Faria Ribeiro**
+**Lucasa Faria Ribeiro**  
 RA: 2312130040
 
 ---
@@ -30,34 +31,32 @@ RA: 2312130040
 
 ### Passo a passo
 
-1. Clone o repositório ou baixe os arquivos:
-```bash
-git clone https://github.com/IagoSet/TecWeb.git
-cd cd .\TecWeb\
-Instale as dependências: npm install
-```
 
-Copiar
-Editar
-npm install
-Inicie o servidor de desenvolvimento:
+1. **Clone o repositório**
+   ```sh
+   git clone 
+   ```
+2. **Acesse o diretório do projeto**
+   ```sh
+   cd .\TecWeb\
+   ```
+3. **Instale as dependências**
+   ```sh
+   npm install
+   ```
+4. **Inicie o servidor de desenvolvimento**
+   ```sh
+   npm start
+   ```
+5. **Acesse no navegador**
+   Abra o navegador e acesse `http://localhost:3000` ou a porta especificada no terminal.
 
-```bash
-Copiar
-Editar
-npm start
-Acesse no navegador:
-```
-
-Copiar
-Editar
-http://localhost:3000
 
 
 ✅ Funcionalidades
 Cadastro com validação de nome e e-mail
 
-Listagem de usuários cadastrados
+Listagem de usuários cadastrados e de itens
 
 Navegação entre páginas (Cadastro e Lista)
 
